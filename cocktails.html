@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>The Cocktail Atlas</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Clariane Luisa Patricia Costa Soares dos Santos">
+    <meta name="description" content="Explore cocktail recipes, ingredients and stories behind iconic drinks.">
+    <meta name="keywords" content="cocktails, mixology, cocktail recipes, drinks, bartending, cocktail atlas">
+    <link rel="stylesheet" href="CocktailAtlas.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Open+Sans:wght@300;400;600&display=swap"
+    rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/icon1.png">
+</head>
+
+<body>
+    <div id="wrapper">
+    <header><h1>The Cocktail Atlas</h1></header> 
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cocktails.html">Cocktails</a></li>
+            <li><a href="map.html">Map</a></li>
+            <li><a href="mixologyguide.html">Mixology Guide</a></li>
+            <li><a href="contact.html">Talk to Us</a></li>
+        </ul>
+    </nav>
+    
+    <main class="cocktail-page">
+        <h2>Cocktail Collection</h2>
+        <p class="cocktail-intro">
+            More than drinks, these are stories in a glass. 
+            Explore iconic cocktails from around the world and uncover the culture, craft, and flavour behind each one, 
+            turning every cocktail into a cultural experience
+        </p>
+     <div class="cocktail-grid">
+        <div class="cocktail-card" onclick="openLightbox(this)">
+            <img src="images/aperol.jpg" alt="A glass of Aperol Spritz cocktail">
+            <p>Aperol Spritz</p>
+                <div class="cocktail-info">
+                <h3>Aperol Spritz 🇮🇹</h3>
+                <h4>Origin:</h4>
+                <p>Italy</p>
+
+                <h4>History:</h4>
+                <p>
+                The Aperol Spritz originated in Northern Italy and became popular in Venice during the 20th century. 
+                It is a modern evolution of the traditional “spritz”, where wine was diluted with water by Austrian soldiers. 
+                Today, it represents Italian aperitivo culture — a relaxed pre-dinner social moment.
+                </p>
+
+                <h4>Ingredients:</h4>
+                <ul>
+                    <li>90 ml Aperol</li>
+                    <li>60 ml Prosecco</li>
+                    <li>30 ml Soda Water</li>
+                    <li>Ice</li>
+                    <li>1 Orange Slice</li>
+                </ul> 
+
+                <h4>Method:</h4>
+                <ul>
+                    <li>Fill a large wine glass with ice</li>
+                    <li>Add 60ml of Prosecco</li>
+                    <li>Pour 90ml of Aperol</li>
+                    <li>Top up with 30ml of soda water</li>
+                    <li>Stir gently</li>
+                    <li>Garnish with an orange slice</li>
+                </ul>
+
+                <h4>Tip:</h4>
+                <p>Follow the classic 3-2-1 ratio:</p>
+                <ul>
+                    <li>3 parts Aperol</li>
+                    <li>2 parts Prosecco</li>
+                    <li>1 part Soda Water</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="cocktail-card" onclick="openLightbox(this)">
+            <img src="images/mojito.jpg" alt="A Mojito cocktail with mint and lime">
+            <p>Mojito</p>
+                <div class="cocktail-info">
+                <h3>Mojito 🇨🇺</h3>
+                <h4>Origin:</h4>
+                <p>Cuba</p>
+
+                <h4>History:</h4>
+                <p>
+                The Mojito dates back to 16th-century Cuba and was originally used for medicinal purposes. 
+                It became popular in Havana and is closely associated with Cuban culture and writer Ernest Hemingway. 
+                Its fresh combination of mint, lime, and rum reflects the tropical Caribbean climate.
+                </p>
+                
+                <h4>Ingredients:</h4>
+                <ul>
+                    <li>50 ml White Rum</li>
+                    <li>25 ml Lime Juice</li>
+                    <li>15 ml Simple Syrup</li>
+                    <li>Mint Leaves</li>
+                    <li>Soda Water</li>
+                </ul>
+
+                <h4>Method:</h4>
+                <ul>
+                    <li>Place the mint leaves in a glass</li>
+                    <li>Gently muddle to release the mint aroma</li>
+                    <li>Add 25 ml of simple syrup</li>
+                    <li>Add 15 ml of simple syrup</li>
+                    <li>Fill the glass with ice</li>
+                    <li>Pour in 50 ml of white rum</li>
+                    <li>Top up with soda water</li>
+                    <li>Stir gently to combine</li>
+                    <li>Garnish with mint leaves and a lime wedge</li>
+                </ul>
+
+                <h4>Tip:</h4>
+                <p>For a smoother and more balanced Mojito, always use simple
+                    syrup instead of sugar - it mixes instantly and avoids 
+                    grainy texture in the drink
+                </p>
+            </div>
+        </div>
+
+        <div class="cocktail-card" onclick="openLightbox(this)">
+            <img src="images/oldfashion.jpg" alt="An Old Fashioned cocktail with orange peel">
+            <p>Old Fashioned</p>
+                <div class="cocktail-info">
+                <h3>Old Fashioned 🇺🇸</h3>
+                <h4>Origin:</h4>
+                <p>United States</p>
+
+                <h4>History:</h4>
+                <p>
+                The Old Fashioned is one of the oldest known cocktails, dating back to the early 1800s. 
+                It was originally simply called a “whiskey cocktail”. 
+                The name “Old Fashioned” came from people requesting the drink made the traditional way, without modern additions.
+                </p>
+
+                <h4>Ingredients:</h4>
+                <ul>
+                    <li>50 ml Bourbon or Rye Whiskey</li>
+                    <li>10 ml Simple Syrup</li>
+                    <li>2-3 dashes Angostura Bitters</li>
+                    <li>Ice (preferably a large cube)</li>
+                    <li>Orange Peel</li>
+                </ul>
+
+                <h4>Method:</h4>
+                <ul>
+                    <li>Add 10 ml of simple syrup into a glass</li>
+                    <li>Add 2-3 dashes of Angostura bitters</li>
+                    <li>Pour in 50 ml of bourbon or whiskey</li>
+                    <li>Add a large ice cube</li>
+                    <li>Stir gently for about 20-30seconds</li>
+                    <li>Express the oils from an orange peel over the drink</li>
+                    <li>Garnish with the orange peel</li>
+                </ul>
+
+                <h4>Tip:</h4>
+                <p>Use a large ice cube, it melts slower, keeping your drink 
+                    cold without watering it down too quickly, preserving 
+                    the full flavor
+                </p>
+            </div>
+        </div>
+
+        <div class="cocktail-card" onclick="openLightbox(this)">
+            <img src="images/marguerita.jpg" alt="A Margarita cocktail served in a salt-rimmed glass">
+            <p>Margarita</p>
+                <div class="cocktail-info">
+                <h3>Margarita 🇲🇽</h3>
+                <h4>Origin:</h4>
+                <p>Mexico</p>
+
+                <h4>History:</h4>
+                <p>
+                The Margarita is believed to have been created in Mexico in the 1930s or 1940s. 
+                There are many stories about its origin, often involving bartenders creating the drink for a woman named Margarita. 
+                It quickly became one of the most famous tequila-based cocktails worldwide.
+                </p>
+
+                <h4>Ingredients:</h4>
+                <ul>
+                    <li>50 ml Tequila</li>
+                    <li>25 ml Orange Liqueur (Triple Sec or Cointreau)</li>
+                    <li>25 ml Fresh Lime Juice</li>
+                    <li>Salt (for the rim)</li>
+                    <li>Ice</li>
+                    
+                </ul>
+
+                <h4>Method:</h4>
+                <ul>
+                    <li>Rub a lime wedge around the rim of your glass</li>
+                    <li>Dip the rim into salt to coat it</li>
+                    <li>In a shaker, add ice, tequila, orange liqueur, and lime juice</li>
+                    <li>Shake well for about 15 seconds</li>
+                    <li>Strain into the prepared glass, with or without ice (your choice)</li>
+                </ul>
+
+                <h4>Tip:</h4>
+                <p>Always use freshly squeezed lime juice, it makes huge difference.
+                    Bottled juice kills the balance and freshness of a perfect margarita.
+                </p>
+            </div>
+        </div>
+            
+
+        <div class="cocktail-card" onclick="openLightbox(this)">
+            <img src="images/irishcoffee.jpg" alt="A glass of Irish Coffee topped with cream">
+            <p>Irish Coffee</p>
+                <div class="cocktail-info">
+                <h3>Irish Coffee 🇮🇪</h3>
+                <h4>Origin:</h4>
+                <p>Ireland</p>
+
+                <h4>History:</h4>
+                <p>
+                Irish Coffee was created in the 1940s in Ireland by chef Joe Sheridan at Foynes Airport. 
+                He prepared the drink to warm up passengers arriving on a cold winter night, combining hot coffee, 
+                Irish whiskey, sugar, and cream. 
+                The drink quickly became famous and is now a symbol of Irish hospitality and warmth.
+                </p>
+
+                <h4>Ingredients:</h4>
+                <ul>
+                    <li>40 ml Irish whiskey</li>
+                    <li>90 ml Hot Coffee (freshly brewed)</li>
+                    <li>10-15 ml Simple Syrup</li>
+                    <li>Lightly whipped cream</li>
+                </ul>
+
+                <h4>Method:</h4>
+                <ul>
+                    <li>Preheat your glass with hot water, then discard it</li>
+                    <li>Add the hot coffee and simple syrup, stirring to combine</li>
+                    <li>Pour in the Irish whiskey and mix gently</li>
+                    <li>Carefully float the lightly whipped cream on top (use the back of a spoon)</li>
+                </ul>
+
+                <h4>Tips:</h4>
+                <ul>
+                    <li>Drink it through the cream - that contrast between hot coffee and cold 
+                        cream is the whole experience</li>
+                    <li>Using sugar syrup helps control sweetness and avoids any grainy texture</li>
+                    <li>You can also swap or mix the whiskey with Baileys for a creamier, sweeter version</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="cocktail-card" onclick="openLightbox(this)">
+            <img src="images/pinacolada.jpg" alt="A Piña Colada cocktail with pineapple garnish">
+            <p>Pinã Colada</p>
+            <div class="cocktail-info">
+            <h3>Pinã Colada 🇵🇷</h3>
+            <h4>Origin:</h4>
+            <p>Puerto Rico</p>
+
+            <h4>History:</h4>
+            <p>
+            The Piña Colada was officially created in Puerto Rico in 1954 and is now the island's national drink. 
+            Its tropical blend of pineapple, coconut, and rum represents Caribbean beach culture and relaxation.
+            </p>
+
+                <h4>Ingredients:</h4>
+                <ul>
+                    <li>50 ml White Rum</li>
+                    <li>30 ml Coconut Cream</li>
+                    <li>50 ml Pineapple Juice</li>
+                    <li>Pineapple Slice or Cherries (Optional)</li>
+                    <li>Ice</li>
+                </ul>
+
+                <h4>Method:</h4>
+                <ul>
+                    <li>Add the rum, coconut cream, pineapple juice, and ice into a blender</li>
+                    <li>Blend until smooth and creamy</li>
+                    <li>Pour into a chilled glass</li>
+                    <li>Garnish with a pineapple slice or cherry (optional)</li>
+                </ul>
+
+                <h4>Tip:</h4>
+                <p>Blend until it's smooth but still thick, too much ice will water it down</p>
+            </div>
+        </div>
+        
+    </div>
+
+    </main>
+
+    <footer>
+        Copyright &copy; 2026 The Cocktail Atlas | 
+        <a href="mailto:thecocktailatlas@gmail.com">thecocktailatlas@gmail.com</a>
+
+        <div class="social-icons">
+        <a href="https://instagram.com" target="_blank">
+            <img src="images/insta.png" alt="Instagram">
+        </a>
+        <a href="mailto:thecocktailatlas@gmail.com">
+            <img src="images/email.png" alt="Email">
+        </a>
+        </div>
+    </footer>
+
+    </div>
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <div class="lightbox-content" onclick="event.stopPropagation()">
+            <button class="close-btn" onclick="closeLightbox()">X</button>
+            <div id="lightbox-body"></div>
+        </div>
+    </div>
+
+    <div id="tip-button" title="Mixology Tip">🍸</div>
+    <div id="tip-popup"></div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
